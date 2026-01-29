@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 import pool.MyDataSource;
 
-public class App {
+public class Controlador {
 
 	public static void main(String[] args) {
 		//menú->
