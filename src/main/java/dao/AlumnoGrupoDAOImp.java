@@ -8,9 +8,9 @@ import model.Grupo;
 public class AlumnoGrupoDAOImp implements AlumnoGrupoDAO {
 
 	@Override
-	public int alumno_add(Alumno al) {
+	public boolean alumno_add(Alumno al) {
 		// TODO Auto-generated method stub
-		return 0;
+		return false;
 	}
 
 	@Override
@@ -26,21 +26,45 @@ public class AlumnoGrupoDAOImp implements AlumnoGrupoDAO {
 	}
 
 	@Override
-	public int grupo_add(Grupo gr) {
+	public boolean grupo_add(Grupo gr) {
 		// TODO Auto-generated method stub
-		return 0;
+		return false;
 	}
 
 	@Override
-	public void delete_alumno(int nia) {
-		// TODO Auto-generated method stub
+	public boolean delete_alumno(int nia) {
+		return false;
 		
 	}
 
 	@Override
-	public void delete_alumnos_curso(int nia) {
-		// TODO Auto-generated method stub
+	public boolean delete_alumnos_curso(int nia) {
+		return false;
 		
+	}
+
+	@Override
+	public List<Grupo> getAllGrupos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean changeGroupFromAlumno() {
+		return false;
+		
+	}
+
+	@Override
+	public boolean changeNameFromAlum(int nia) {
+		return false;
+		
+	}
+
+	@Override
+	public Grupo getById(int pk) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

@@ -1,5 +1,5 @@
 package vista;
 
-public class Vista {
+public class Vista implements IVista {
 
 }
